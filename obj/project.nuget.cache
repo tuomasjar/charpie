@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "UNGG3HNgNYk15TKY2ddOxpBkj4ookuPVaLUi1Eyl2ynZnjynp9ltkSOAjdNdEaD3Z8U6XxpWNcPdoW4PQP4gzQ==",
+  "dgSpecHash": "Vxi2iqI4NS8wXqROk/YRu+VlILfFdR9ne2Ja5duIqXs0vr4S1+iNXPkP927h2KqJp+zXA4TLigBaRx1WMTwL2g==",
   "success": true,
   "projectFilePath": "C:\\Users\\tuoma\\csharpie\\csharpie.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\tuoma\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\tuoma\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\tuoma\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\tuoma\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
