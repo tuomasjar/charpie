@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "f8ab+DBEqGGaKfjeaUcfCIHOBAi6wyd42vwH79kwYYCfE0+oQWLYWB1zWUdontGIwPusQ8e9MjtVQhSZpOgCTQ==",
+  "dgSpecHash": "xrggmesO8USGAH0Tq+LuBGUQqRD6+wVZQmNlfl8VTlU+blwruM/UkvIgV9wZBjwwfcIVepPR4/d0Hx8jcuIgVg==",
   "success": true,
   "projectFilePath": "C:\\Users\\tuoma\\csharpie\\csharpie.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,8 @@
     "C:\\Users\\tuoma\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\microsoft.extensions.configuration.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\tuoma\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.6\\microsoft.extensions.configuration.fileextensions.3.1.6.nupkg.sha512",
     "C:\\Users\\tuoma\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.6\\microsoft.extensions.configuration.json.3.1.6.nupkg.sha512",
+    "C:\\Users\\tuoma\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\microsoft.extensions.dependencyinjection.3.1.6.nupkg.sha512",
+    "C:\\Users\\tuoma\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\tuoma\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.6\\microsoft.extensions.fileproviders.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\tuoma\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.6\\microsoft.extensions.fileproviders.physical.3.1.6.nupkg.sha512",
     "C:\\Users\\tuoma\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.6\\microsoft.extensions.filesystemglobbing.3.1.6.nupkg.sha512",
