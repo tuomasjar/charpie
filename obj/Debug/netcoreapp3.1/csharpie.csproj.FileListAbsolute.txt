@@ -1,0 +1,13 @@
+C:\Users\tuoma\csharpie\bin\Debug\netcoreapp3.1\csharpie.exe
+C:\Users\tuoma\csharpie\bin\Debug\netcoreapp3.1\csharpie.deps.json
+C:\Users\tuoma\csharpie\bin\Debug\netcoreapp3.1\csharpie.runtimeconfig.json
+C:\Users\tuoma\csharpie\bin\Debug\netcoreapp3.1\csharpie.runtimeconfig.dev.json
+C:\Users\tuoma\csharpie\bin\Debug\netcoreapp3.1\csharpie.dll
+C:\Users\tuoma\csharpie\bin\Debug\netcoreapp3.1\csharpie.pdb
+C:\Users\tuoma\csharpie\obj\Debug\netcoreapp3.1\csharpie.csprojAssemblyReference.cache
+C:\Users\tuoma\csharpie\obj\Debug\netcoreapp3.1\csharpie.AssemblyInfoInputs.cache
+C:\Users\tuoma\csharpie\obj\Debug\netcoreapp3.1\csharpie.AssemblyInfo.cs
+C:\Users\tuoma\csharpie\obj\Debug\netcoreapp3.1\csharpie.csproj.CoreCompileInputs.cache
+C:\Users\tuoma\csharpie\obj\Debug\netcoreapp3.1\csharpie.dll
+C:\Users\tuoma\csharpie\obj\Debug\netcoreapp3.1\csharpie.pdb
+C:\Users\tuoma\csharpie\obj\Debug\netcoreapp3.1\csharpie.genruntimeconfig.cache
