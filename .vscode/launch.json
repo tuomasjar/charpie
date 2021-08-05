@@ -15,7 +15,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/csharpie.dll",
+            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.0/csharpie.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
