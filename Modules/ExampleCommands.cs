@@ -31,6 +31,50 @@ namespace csharpi.Modules
             await ReplyAsync(sb.ToString());
         }
 
+        [Command("roll")]
+        public async Task RollDice([Remainder]string args = null)
+        {
+            var sb = new StringBuilder();
+            var embed = new EmbedBuilder();
+            int result=0;
+            embed.WithColor(new Color(0,0,255));
+            embed.WithTitle("This is how I roll");
+            if(args==null){
+                sb.AppendLine("Nothing to roll");
+            }else if(!args.Contains("d")){
+                sb.AppendLine("Nothing to roll");
+            }else{
+                Random rand = new Random();
+                String input = args.ToString();
+                String[] parts = input.Split("d");
+                int lkm = 0;
+                int eyes= 0;
+                try{
+                    int.TryParse(parts[0],out lkm);
+                    int.TryParse(parts[1],out eyes);
+                }catch(FormatException e){
+                    sb.AppendLine("Nothing to roll");
+                }
+                if(lkm != 0 && eyes != 0){
+                    for(int i = 0;i<lkm;i++){
+                        int random = rand.Next(eyes);
+                        random++;
+                        if(i!=0)sb.Append("+");
+                        sb.Append(random.ToString());
+                        result+=random;
+                    }
+                }else{
+                    sb.AppendLine("Nothing to roll");
+                }
+                if(result != 0){
+                    sb.Append("="+result.ToString());
+                }
+
+            }
+            embed.Description = sb.ToString();
+            await ReplyAsync(null, false, embed.Build());
+        }
+
         [Command("8ball")]
         [Alias("ask")]
         [RequireUserPermission(GuildPermission.KickMembers)]
