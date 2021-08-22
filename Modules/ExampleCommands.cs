@@ -102,7 +102,6 @@ namespace csharpi.Modules
             // here I'm setting up the preface with the user's name and a comma
             sb.AppendLine($"{Context.User.Username},");
             sb.AppendLine();
-
             // let's make sure the supplied question isn't null 
             if (args == null)
             {
