@@ -92,7 +92,7 @@ namespace csharpi.Modules
             replies.Add("yes");
             replies.Add("no");
             replies.Add("maybe");
-            replies.Add("hazzzzy....");
+            replies.Add("hmm what?");
 
             // time to add some options to the embed (like color and title)
             embed.WithColor(new Color(0, 255,0));
@@ -138,7 +138,7 @@ namespace csharpi.Modules
                         embed.WithColor(new Color(255,255,0));
                         break;
                     }
-                    case "hazzzzy....":
+                    case "hmm what?":
                     {
                         embed.WithColor(new Color(255,0,255));
                         break;
