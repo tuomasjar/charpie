@@ -54,8 +54,8 @@ namespace csharpie
 
                 // we get the CommandHandler class here and call the InitializeAsync method to start things up for the CommandHandler service
                 await services.GetRequiredService<CommandHandler>().InitializeAsync();
-
                 await Task.Delay(-1);
+                
             }
         }
 
@@ -68,6 +68,8 @@ namespace csharpie
         private Task ReadyAsync()
         {
             Console.WriteLine($"Connected as -> [{_client.CurrentUser}] :)");
+            SocketChannel channel = _client.GetChannel(852210904783126572);
+            (channel as IMessageChannel).SendMessageAsync("I'm Alive!");
             return Task.CompletedTask;
         }
 
