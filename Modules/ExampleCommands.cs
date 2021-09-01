@@ -28,6 +28,7 @@ namespace csharpi.Modules
             // build out the reply
             sb.AppendLine($"You are -> [{user.Username}]");
             sb.AppendLine("I must now say, World!");
+            sb.Append("Restarts: ");
             sb.AppendLine(Starters.starts.ToString());
             // send simple string reply
             await ReplyAsync(sb.ToString());
