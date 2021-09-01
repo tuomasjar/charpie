@@ -8,12 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using Microsoft.Extensions.Configuration;
+using csharpie;
 
 namespace csharpi.Modules
 {
     // for commands to be available, and have the Context passed to them, we must inherit ModuleBase
     public class ExampleCommands : ModuleBase
     {
+        
         [Command("hello")]
         public async Task HelloCommand()
         {
@@ -26,7 +28,7 @@ namespace csharpi.Modules
             // build out the reply
             sb.AppendLine($"You are -> [{user.Username}]");
             sb.AppendLine("I must now say, World!");
-
+            sb.AppendLine(Starters.starts.ToString());
             // send simple string reply
             await ReplyAsync(sb.ToString());
         }

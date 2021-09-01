@@ -9,12 +9,17 @@ using Microsoft.Extensions.Configuration.Json;
 using Microsoft.Extensions.DependencyInjection;
 using csharpie.Services;
 
+
+
 namespace csharpie
 {
+    static class Starters{
+        public static int starts=0;
+    }
     class Program
     {
         // setup our fields we assign later
-        private int startups = 0;
+        
         private readonly IConfiguration _config;
         private DiscordSocketClient _client;
 
@@ -69,12 +74,12 @@ namespace csharpie
         private Task ReadyAsync()
         {
             Console.WriteLine($"Connected as -> [{_client.CurrentUser}] :)");
-            if(startups==0){
+            if(Starters.starts==0){
             SocketChannel channel = _client.GetChannel(852210904783126572);
             (channel as IMessageChannel).SendMessageAsync("I'm Alive!");
             }
-            startups++;
-            Console.WriteLine(startups.ToString());
+            Starters.starts++;
+            Console.WriteLine(Starters.starts.ToString());
             return Task.CompletedTask;
         }
 
