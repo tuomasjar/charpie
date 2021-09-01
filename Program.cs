@@ -14,6 +14,7 @@ namespace csharpie
     class Program
     {
         // setup our fields we assign later
+        private int startups = 0;
         private readonly IConfiguration _config;
         private DiscordSocketClient _client;
 
@@ -68,8 +69,12 @@ namespace csharpie
         private Task ReadyAsync()
         {
             Console.WriteLine($"Connected as -> [{_client.CurrentUser}] :)");
+            if(startups==0){
             SocketChannel channel = _client.GetChannel(852210904783126572);
             (channel as IMessageChannel).SendMessageAsync("I'm Alive!");
+            }
+            startups++;
+            Console.WriteLine(startups.ToString());
             return Task.CompletedTask;
         }
 
